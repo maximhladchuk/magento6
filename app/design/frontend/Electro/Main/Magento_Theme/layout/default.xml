@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Maxim Hladchuk maxim.hladchuk@gmail.com
+ * Copyright (c) 2023 GmbH
+ * http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<page layout="3columns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+<!--        <referenceContainer name="header.panel">-->
+<!--            <container name="header.panel.container" htmlTag="div" htmlClass="header_container" after="-"></container>-->
+<!--        </referenceContainer>-->
+<!--        <move element="header.panel" destination="header.panel.container" />-->
+<!--        <move element="customer" destination="header.panel.container" after="-"/>-->
+    </body>
+</page>
