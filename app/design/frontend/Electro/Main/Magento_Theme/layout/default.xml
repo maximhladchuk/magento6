@@ -8,10 +8,10 @@
 -->
 <page layout="3columns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
-<!--        <referenceContainer name="header.panel">-->
-<!--            <container name="header.panel.container" htmlTag="div" htmlClass="header_container" after="-"></container>-->
-<!--        </referenceContainer>-->
-<!--        <move element="header.panel" destination="header.panel.container" />-->
-<!--        <move element="customer" destination="header.panel.container" after="-"/>-->
+        <referenceContainer name="header-wrapper">
+            <container name="controls-container" htmlTag="div" htmlClass="controls_container" after="-"></container>
+        </referenceContainer>
+        <move element="minicart" destination="controls-container" after="-"/>
+        <move element="compare-link-wrapper" destination="controls-container" before="minicart"/>
     </body>
 </page>
